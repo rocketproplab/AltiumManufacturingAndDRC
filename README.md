@@ -8,5 +8,15 @@ How to use Altium Outjob file for generating manufacturing documents:
     ii. Choose target folder for output files. In project releaser >> Options >> Output Path
     iii. If Outjob file not immediately recognized, go to Options (in project releaser) >> Release Options >> ensure RPLExports is checked for Source data
 3. Hit Prepare. Then review and export all files. They should appear where specified in the output path.
+More info:
+https://www.altium.com/documentation/altium-designer/working-with-the-project-releaser-ad
 
-Configuring a DRC using JLC/Oshpark Rules file
+Configuring a DRC using JLC/Oshpark Rules file:
+0. Download Rules file to project folder
+1. Design >> Rules
+2. Right-click on Design Rules folder on the left side >> Import Rules
+3. Ctrl A to select all rules. Hit Next
+4. Select Rules file
+5. Hit Yes to clear all existing rules. The DRC should now be configured for JLC/Oshpark
+More info:
+https://www.altium.com/documentation/knowledge-base/altium-designer/import-or-export-design-rules
