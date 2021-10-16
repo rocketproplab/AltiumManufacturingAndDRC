@@ -8,6 +8,9 @@ How to use Altium Outjob file for generating manufacturing documents:
     ii. Choose target folder for output files. In project releaser >> Options >> Output Path
     iii. If Outjob file not immediately recognized, go to Options (in project releaser) >> Release Options >> ensure RPLExports is checked for Source data
 3. Hit Prepare. Then review and export all files. They should appear where specified in the output path.
+4. For Uploading to JLC:
+    i. In the NC Drill Files folder that was created, rename the .txt file to .xln
+    ii. Take all generated gerber files (GTL, GTS, etc.) and the .xln drill file and upload those to JLC in a zipped folder
 More info:
 https://www.altium.com/documentation/altium-designer/working-with-the-project-releaser-ad
 
