@@ -1,5 +1,6 @@
 # AltiumManufacturingAndDRC
 Altium OutJob file for generating gerbers, PNPs, etc. Also includes Rules file for JLC, Oshpark
+
 REMEMBER TO CREATE A MECHANICAL BOARD OUTLINE FIRST!!!!
 
 How to use Altium Outjob file for generating manufacturing documents:
