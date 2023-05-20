@@ -25,3 +25,10 @@ Configuring a DRC using JLC/Oshpark Rules file:
 5. Hit Yes to clear all existing rules. The DRC should now be configured for JLC/Oshpark
 More info:
 https://www.altium.com/documentation/knowledge-base/altium-designer/import-or-export-design-rules
+
+Adding a layer stackup file to your Altium Project:
+1. Open your .pcb file in Altium
+2. Go to Design >> Layer Stack Manager
+3. Go to File >> Load Stackup From File
+4. Choose the 4 Layer Stackup from this repo (for impedance controlled 4 layer 
+
